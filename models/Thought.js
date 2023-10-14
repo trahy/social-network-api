@@ -1,5 +1,8 @@
 const { Schema, model, Types } = require('mongoose');
 
+// require moment to format date
+const moment = require('moment');
+
 // createing subdocument Reaction schema for the Thought model
 const reactionSchema = new Schema({
     reactionId: {
@@ -18,7 +21,8 @@ const reactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        // date format here
+        // format date
+        get: newDate => moment(newDate).format('DD-MM-YYYY [at] hh:mm a'),
     },
 });
 
@@ -34,7 +38,8 @@ const thoughtSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            // date format here
+            // format date
+            get: newDate => moment(newDate).format('DD-MM-YYYY [at] hh:mm a'),
         },
         username: {
             type: String,
