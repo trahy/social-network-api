@@ -39,7 +39,7 @@ localhost:3001
 
 This is the general setup when using the application with insomnia.
 
-![screenshot of application](assets/screenshot.png)
+![screenshot of application](/public/assets/screenshot.png)
 
 
 ## Walkthrough-Video
