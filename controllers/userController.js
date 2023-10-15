@@ -113,7 +113,7 @@ module.exports = {
                     .json({ message: 'No friend found with that ID' });
             }
 
-            res.json(friend);
+            res.status(200).json(`Friend successfully removed`);  
         } catch (err) {
             res.status(500).json(err);
         }
