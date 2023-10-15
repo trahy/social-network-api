@@ -44,7 +44,7 @@ This is the general setup when using the application with insomnia.
 
 ## Walkthrough-Video
 
-To see how this application works, follow the [Walkthrough Video](https://drive.google.com/file/d/1GKzSJvRNhp443to077GPvU8CM3iGZWO1/view?usp=drive_link).
+To see how this application works, follow the [Walkthrough Video](https://drive.google.com/file/d/1f7ox_0WU4LDezItl87klMNwgUg9EKopx/view?usp=sharing).
 
 
 ## Resources
